@@ -1,0 +1,220 @@
+/*-------  ここから共通のCSS  --------*/
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.clear{
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  padding: 25px 0;
+  display: none;
+}
+
+/*-------  ここまで共通のCSS  --------*/
+
+/*-------  ここからヘッダー  --------*/
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(42, 126, 177, 0.9);
+  position :fixed;
+  top: 0;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 8px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+/*-------  ここまでヘッダー  --------*/
+
+/*-------  ここからWork  --------*/
+
+.work-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.work {
+  float: left;
+  width: 33.3%;
+}
+
+.work-icon p {
+  color: #b3aeb5;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+/*-------  ここまでWork  --------*/
+
+/*-------  ここからAbout  --------*/
+
+.about-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.wakahara{
+  width: 100%;
+  color: #5f5d60;
+}
+
+.wakahara img{
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.wakahara h2{
+  font-weight: normal;
+}
+
+/*-------  ここまでAbout  --------*/
+
+/*-------  ここからContact  --------*/
+
+.contact-form{
+  text-align: center;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  padding: 8px 24px;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.contact-submit:hover {
+  opacity: 1;
+}
+
+/*-------  ここまでContact  --------*/
+
+/*-------  ここからフッダー  --------*/
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(42, 126, 177, 0.9);
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+.page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80%;
+}
+ 
+.page-top a {
+    display: block;
+    background: #5f5d60;
+    color: #fff;
+    width: 100px;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+ 
+.page-top a:hover {
+  background: #999;
+}
+/*-------  ここまでフッダー  --------*/
